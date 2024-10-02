@@ -25,7 +25,7 @@ export ANSIBLE_CONFIG=/ansible/ansible.cfg && cd /ansible/ && ansible-playbook /
    - Примечание: используйте пользователя **root** либо команды: **su - root** либо **sudo -i**
 ### 2) Выполните данную команду на удаленной машине:
 ```
-apt update -y && apt install git -y ; git clone https://github.com/avlikh/Otus_pro_05.git /ansible; /ansible/install_andible_and_lesson3.ssh
+apt update -y && apt install git -y ; git clone https://github.com/avlikh/Otus_pro_05.git /ansible; /ansible/install_andible_and_lesson5.ssh
 ```
    - Примечание: Будет выполнена установка репозиториев, основных пакетов и утилит, Ansible и запущен playbook, который соберет raid-10 массив из 4 дисков (имена дисков, название массива и точку монтирования можно задать в начале Ansible-playbook-файла (/ansible/mdadm.yaml) в пременных)
 
